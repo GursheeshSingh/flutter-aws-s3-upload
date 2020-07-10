@@ -1,6 +1,6 @@
 const express = require("express");
 const AWS = require("aws-sdk");
-const awsConfig = require("../aws-server/config-aws");
+const awsConfig = require("./config-aws");
 const uuid = require("uuid");
 const app = express();
 var bodyParser = require("body-parser");
